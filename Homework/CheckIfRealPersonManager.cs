@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Homework
 {
-    class CheckIfRealPersonManager
+    class CheckIfRealPersonManager  // simulating method for official checking program
     {
         public bool CheckIfRealPerson(Player player)
         {

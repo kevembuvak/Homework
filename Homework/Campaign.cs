@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Homework
 {
-    class Campaign
+    class Campaign  // Entity class for campaigns
     {
         public string Name { get; set; }
         public DateTime StartDate { get; set; }

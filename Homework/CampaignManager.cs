@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Homework
 {
-    class CampaignManager
+    class CampaignManager  // operator class for campaign entity
     {
         public void Add(Campaign campaign)
         {

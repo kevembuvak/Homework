@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Homework
 {
-    class Player
+    class Player // Entity class for players
     {
         public int Id { get; set; }
         public string Name { get; set; }

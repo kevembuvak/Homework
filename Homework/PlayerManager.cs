@@ -4,11 +4,12 @@ using System.Text;
 
 namespace Homework
 {
-    class PlayerManager
+    class PlayerManager  // operator class for player entity
     {
         public void Add(Player player)
         {
             CheckIfRealPersonManager check = new CheckIfRealPersonManager();
+
             if (check.CheckIfRealPerson(player)){
                 Console.WriteLine("Player named: " + player.Name + "has been added");
             }
